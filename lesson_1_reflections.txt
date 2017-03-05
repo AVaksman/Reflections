@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I run FC command in the command promt and diff in the bash. It qupted the lines with the different content both files
+    this way I easily saw the typo in the new file.ls
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    In case of an issue I would easoly be able to compare currect code to the previous versions and find a bug
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Biggest con of auto commit is not a logical change. The auto commit may not even compile, which will make ie senceless to revert to it in case of a problem with a current file.
+    In case of manual commit the might forget to commit or something like system crush might ruin the unsaved progress.
+
+How can you use the commands git log and git diff to view the history of files?
+	git log populates a list af all commits with date, author and comments. git diff followed by two commit IDs produces info on what changes have been made, which lines have been added/deleted
+
+How might using version control make you more confident to make changes that could break something?
+	I can always compare the current problematic code with the previous clean version and see where the problem is
