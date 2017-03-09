@@ -12,14 +12,24 @@ As an exaple commmit at once cake and frosting recepies as a one commit vs commi
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can add only the files that complete the logical change before commiting, then add more files for the next logical change if any.
+
+How do diagrams help you visualize the branch structure?
+Now I have a better understanding of what does 'detouched head' message mean and how to use branches to help retain changes to the code.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+In case you want to experiment on a new feature while keeping the current working version intact yo uwould branch from the main directory and work on the experiment.
 
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Looking at the diagram it is easy to understand that after merging git log will contain commits from the both branches.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Pros. Less manual work is requared. The only manual input is needed is when it is a conflict between two branched
